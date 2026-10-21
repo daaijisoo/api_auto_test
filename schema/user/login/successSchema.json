@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "title": "success",
+  "description": "Auto generated JSON schema based on the 'success' file",
+  "properties": {
+    "msg": {
+      "type": "string"
+    },
+    "code": {
+      "type": "number"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": "number"
+        },
+        "disable": {
+          "type": "number"
+        },
+        "nickname": {
+          "type": "string"
+        },
+        "distribution_code": {
+          "type": "string"
+        },
+        "id": {
+          "type": "number"
+        },
+        "avatar": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        }
+      }
+    },
+    "show": {
+      "type": "number"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}
