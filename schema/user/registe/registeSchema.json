@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "title": "registe",
+  "description": "Auto generated JSON schema based on the 'registe' file",
+  "properties": {
+    "msg": {
+      "type": "string"
+    },
+    "code": {
+      "type": "number"
+    },
+    "data": {
+      "type": "string"
+    },
+    "show": {
+      "type": "number"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}
