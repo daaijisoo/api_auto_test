@@ -2,7 +2,7 @@
 import logging
 import requests
 
-from api.user.index import LOGINPATH
+# from api.user.index import LOGINPATH
 from conf.globaldata import BASEURL
 from logging import config
 
@@ -54,13 +54,13 @@ def req(url,session=requests,method="GET",params=None,data=None,json=None,files=
             return False
 
 
-if __name__ == '__main__':
-    res = req(url = LOGINPATH,method="GET",params="post",json = {
-        "account":"18888888888",
-        "password":"admin123",
-        "client":2
-    })
-    print(res)
+# if __name__ == '__main__':
+#     res = req(url = LOGINPATH,method="GET",params="post",json = {
+#         "account":"18888888888",
+#         "password":"admin123",
+#         "client":2
+#     })
+#     print(res)
 
 
 
